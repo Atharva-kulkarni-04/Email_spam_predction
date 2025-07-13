@@ -8,7 +8,7 @@ from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
 
 tfidf = pickle.load(open('Vectorizer.pkl','rb'))
-model = pickle.load(open('model.pkl','rb'))
+model = pickle.load(open('Model.pkl','rb'))
 
 st.title('Email Spam Classifier')
 
